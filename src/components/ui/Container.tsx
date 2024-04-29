@@ -1,9 +1,13 @@
+import { ReactNode } from "react";
 
-const container = ({Children}) => {
+type TContainerProps = {
+children : ReactNode;
+}
+const container = ({children}:TContainerProps) => {
   return (
-    <div>
+    <div className="h-screen w-full max-w-7xl mx-auto bg-red-500">
       {
-        Children
+        children
       }
     </div>
   );

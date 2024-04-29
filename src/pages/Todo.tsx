@@ -1,12 +1,13 @@
 import TodoContainer from "@/components/todo/TodoContainer";
+import { Container } from "lucide-react";
 
 
 const Todo = () => {
   return (
-    <div>
+    <Container>
       <h1>My Todos</h1>
       <TodoContainer></TodoContainer>
-    </div>
+    </Container>
   );
 };
 
