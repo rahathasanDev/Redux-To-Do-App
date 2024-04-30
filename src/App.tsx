@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Todo></Todo>
-    <Button>Button</Button>
+    
     
     </>
   )
