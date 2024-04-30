@@ -1,15 +1,9 @@
 import TodoContainer from "@/components/todo/TodoContainer";
-import { Container } from "lucide-react";
+import Container from "@/components/ui/Container";
 
 const Todo = () => {
   return (
-    <Container className="bg-red-500 w-full">
-      <h1>My Todos</h1>
-      <h2>Todo container</h2>
-      <div>
-        <p>Rahat hasan</p>
-        <h4>this is todo app using redux technology</h4>
-      </div>
+    <Container>
       <TodoContainer></TodoContainer>
     </Container>
   );
